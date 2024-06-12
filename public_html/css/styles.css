@@ -1,0 +1,303 @@
+.post_holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-width: 16px;
+  border: solid black 1px;
+  gap: 16px;
+  height: auto;
+  align-content: center;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.additional_parameter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+
+  position: absolute;
+  width: 221px;
+  height: 35px;
+  left: 20px;
+  top: 185px;
+  background: #500219;
+  border-radius: 8px;
+}
+
+.post_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.post_image {
+  display: flex;
+  padding-left: 60px;
+}
+
+.post_description {
+  display: flex;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  align-self: auto;
+}
+
+.profile_picture {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.user_name {
+  padding-top: 10px;
+}
+
+.time_posted {
+  padding-top: 10px;
+}
+
+.feed_body {
+  display: flex;
+  gap: 16px;
+}
+
+.events_body {
+  display: flex;
+  gap: 16px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  padding-left: 30px;
+  border-right: 2px solid #0081a7;
+  padding-bottom: 16px;
+}
+
+
+.category_icon {
+  height: 1%;
+  width: 1%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004e66;
+  padding: 10px 20px;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.site-name {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.search-bar {
+  width: 500px;
+  padding: 0.5%;
+  font-size: 16px;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-container {
+  width: 100%;
+  padding-top: 83px;
+  padding-bottom: 63px;
+  background: #fde39b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 26px;
+}
+
+.footer-links,
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-links div,
+.footer-info div {
+  color: #282828;
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.footer-links div {
+  width: 67px;
+}
+
+.footer-info div:last-child {
+  line-height: 16px;
+}
+
+.home-icon {
+  padding-right: 26px;
+}
+
+.calendar-icon {
+  padding-right: 26px;
+}
+
+.notification-icon {
+  padding-right: 16px;
+}
+
+.profile-icon {
+  padding-right: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 75%;
+}
+
+.event-detail {
+  display: flex;
+  gap: 16px;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.event-banner {
+  width: fit-content;
+}
+
+.event {
+  padding: 28px 24px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: solid #004e66 2px;
+  border-radius: 16px;
+  height: fit-content;
+}
+
+.event-title {
+  display: flex;
+  gap: 16px;
+}
+
+.event-detail-text {
+  padding-top: 8px;
+}
+
+.event-card {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+  gap: 16;
+}
+.event_page {
+  display: flex;
+  gap: 16px;
+}
+
+.event-users {
+  display: flex;
+  flex-direction: column; 
+  width: 25%;
+  height: 100%;
+  padding-left: 30px;
+  border-right: 2px solid #0081a7;
+  padding-bottom: 16px;
+}
+
+.event_cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+  width: 150px;
+  height: 30px;
+  left: 20px;
+  top: 20px;
+  background: #2d4d32;
+  border-radius: 8px;
+  padding-bottom: 16px;
+  color: white;
+}
+
+.inscription_body {
+  height: 100%;
+}
+
+
+
